@@ -1,5 +1,6 @@
 # Mocking vs Emulation Demo
 
+Vercel has recently released a newer way of writing integraiton tests by moving away from traditional mocking to something which feels more real in nature - [vercel-labs/emulate](https://github.com/vercel-labs/emulate)
 This mini repo compares two testing styles for API integrations:
 
 1. **Traditional mocking**: stub `fetch` responses per call.
